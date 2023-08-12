@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    line-height: 80px;
+    background-color: black;
+}
+nav  ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    
+}
+nav ul li a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    transition: 0.5s all ease-in;
+}
+.logo{
+    color: rgb(6, 221, 6);
+    margin-left: 30px;
+    font-size: 40px;
+}
+.btn{
+    padding: 10px;
+    color: white;
+    background: rgb(2, 201, 2);
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s all ease-in;
+    font-size: 20px;
+}
+.btn:hover{
+    background: black;
+    color: rgb(5, 224, 5);
+    border: 1px solid gray;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(6, 206, 6);
+}
+.sticky{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.home{
+    padding: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://www.olive.in/images/portfolio/zone/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+}
+.home-content{
+    text-align: center;
+    color: white;
+
+}
+.home-content h1{
+    font-size: 70px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    color: rgb(7, 231, 7);
+}
+.home-content h3{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 30px;
+   text-transform: capitalize;
+}
+.home-content p{
+   font-size: 20px;
+}
+.btn1{
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  background: rgb(2, 201, 2);
+  border: none;
+  border-radius: 5px;
+}
+.btn1:hover{
+    background: black;
+    color: rgb(5, 224, 5);
+    border: 1px solid gray;
+}
+.program{
+    padding: 100px;
+    background-color: black;
+    
+}
+.program h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px
+}
+.program span{
+    color: rgb(5, 218, 5);
+}
+.our-programs{
+    display: flex;
+    justify-content: center;
+    
+}
+.our-programs .crd{
+    margin-inline: 22px;
+    text-align: center;
+    height: 400px;
+}
+.our-programs .crd img{
+    height: 400px;
+    border-radius: 5px;
+    transition: 0.5s all ease-in-out;
+}
+.our-programs h3{
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.our-programs .crd img:hover{
+    width: 103%;
+    height: 104%;
+}
+.plan{
+    padding: 100px;
+    background-color: black;
+}
+.our-plan{
+    display: flex;
+    justify-content: center;
+}
+.our-plan .card{
+  background-color: rgb(36,35,35);
+  margin-inline: 22px;
+  height: 450px;
+  width: 250px;
+  text-align: center;
+  padding-top: 40px;
+  transition:0.5s all ease-in-out;
+}
+.our-plan .card  i{
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: orange;
+    
+}
+.our-plan .card h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: rgb(8, 221, 8);
+}
+.our-plan .card h1{
+    color: rgb(8, 206, 8);
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.our-plan .card p{
+    color:gray;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.plan h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.plan span{
+    color: rgb(4, 226, 4);
+}
+.our-plan .card button{
+    padding: 10px;
+    margin-top: 20px;
+    background: orange;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s all ease-in;
+}
+
+.our-plan .card:hover{
+    background-color: rgb(14, 13, 13);
+    height: 470px;
+    width: 270px;
+}
+.contact{
+    padding: 100px;
+    background-color: black;
+    justify-content: center;
+}
+
+form input{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 22px;
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+}
+#tel{
+    width: 415px;
+}
+form textarea{
+    width: 421px;
+    height: 15vh;
+    margin-right: 5px;
+    padding: 8px;
+    font-size: 20px;
+}
+form button{
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(4, 214, 4);
+    border: 1px solid grya;
+    color:white;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+    margin-right: 340px;
+    border: none;
+    transition:0.5s all  ease-in-out
+}
+form button:hover{
+    background: black;
+    color: rgb(5, 224, 5);
+    border: 1px solid gray;
+}
+.contact h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.contact span{
+    color: rgb(6, 211, 6);
+}
