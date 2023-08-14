@@ -560,11 +560,15 @@ form textarea{
     margin-left: 40px;
 } */
 }
-@media (min-width:300px) and (max-width:599px){
+@media (min-width:450px) and (max-width:599px){
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+    body{
+        padding: 0;
+        margin: 0;
     }
     nav{
         width:100%
@@ -618,23 +622,25 @@ form textarea{
     }
     .plan{
         width: 100%;
-        padding: 20px;
+        padding: 100px;
     }
     .our-plan{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
     .our-plan .card{
         background-color: rgb(36,35,35);
         margin-bottom: 22px;
         height: 450px;
-        width: 200px;
+        width: 255px;
         text-align: center;
         padding-top: 40px;
         transition:0.5s all ease-in-out;
         margin-inline: 0;
-        
+        margin-left:0;
       }
       .blog{
         width: 100%;
