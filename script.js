@@ -26,3 +26,10 @@ window.onscroll = function() {
     scrollToTopBtn.style.display = "none";
   }
 }; 
+
+function toggleMenu(){
+  const navbar=document.querySelector('nav ul');
+  navbar.classList.toggle('active');
+}
+const navbar  =document.querySelector('.navbar-toggle');
+navbarToggle.addEventListener('click',toggleMenu);

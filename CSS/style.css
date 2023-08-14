@@ -202,7 +202,7 @@ nav ul li a:hover{
 }
 
 form input{
-    width: 200px;
+    width: 420px;
     height: 40px;
     margin-bottom: 22px;
     margin-right: 10px;
@@ -333,4 +333,193 @@ footer{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    font-size: 30px;
+    margin-right: 10px;
+    display: none;
+    color: green;
+}
+#check{
+    display: none;
+}
+ #check:checked ~ ul{
+    left: 0;
+} 
+
+
+@media (max-width:800px){
+    nav ul {
+        width:100%;
+        height:100vh;
+        background-color: lightblue;
+        position: fixed;
+        top: 80px;
+       left: -100%;
+       transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        line-height: 45px;
+        
+    }
+    nav ul li  a{
+        color: black;
+        font-size: 25px;
+    }
+    
+    #checkbtn{
+        display: block;
+    }
+    nav ul .btn {
+        margin-left: 300px; /* Adjust margin to align the button properly */
+        font-size: 30px;
+    }
+    
+}
+@media (min-width:600px) and (max-width:800px){
+    nav {
+        width: 100%;
+    }
+    .home{
+        width: 100%;
+    }
+    .home-content{
+        margin-bottom: 50px;
+    }
+    .home-content h1{
+        font-size: 70px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        color: rgb(7, 231, 7);
+    }
+    .btn1{
+        margin-bottom: 20px;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 20px;
+        color: white;
+        background: rgb(2, 201, 2);
+        border: none;
+        border-radius: 5px;
+      }
+      .program{
+        width: 100%;
+      }
+      .our-programs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .our-programs .crd{
+        margin-bottom: 50px;
+        text-align: center;
+        height: 400px;
+        
+    }
+    .our-programs .crd img{
+        height: 400px;
+        border-radius: 5px;
+        transition: 0.5s all ease-in-out;
+    }
+    .our-programs .crd img:hover{
+        width: 100%;
+        height: 101%;
+    }
+    .plan{
+        width: 100%;
+        padding: 100px;
+    }
+    .our-plan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .our-plan .card{
+        background-color: rgb(36,35,35);
+        margin-bottom: 22px;
+        height: 450px;
+        width: 320px;
+        text-align: center;
+        padding-top: 40px;
+        transition:0.5s all ease-in-out;
+        
+      }
+      .our-plan .card:hover{
+        background-color: rgb(14, 13, 13);
+        height: 470px;
+        width: 330px;
+    }
+    .blog{
+        width: 100%;
+        padding: 100px;
+    }
+    .our-blog{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .our-blog .blog-card{
+        width: 350px;
+        margin-bottom: 30px;
+        height: 410px;
+        background-color: rgb(58, 57, 57);
+    }
+    .blog h2{
+        text-align: center;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 40px;
+    }
+    .blog-text  p{
+        margin-top: 20px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .contact{
+        width: 100%;
+    }
+    form input{
+        width: 200px;
+        height: 40px;
+        margin-bottom: 22px;
+        margin-right: 10px;
+        padding: 8px;
+        font-size: 20px;
+        outline: none;
+    }
+    footer{
+        width: 100%;
+    }
+    footer{
+        background-color: black;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        box-shadow: 0px 2px 6px 2px gray;
+      
+      }
+    
+      .contact input[type="text"],
+      .contact input[type="email"] {
+          width: 100%; /* Make the input fields occupy the full width */
+          margin-bottom: 10px; /* Add some spacing between input fields */
+      }
+      form textarea {
+        width: 100%;
+    }
+    form button{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    
+    
 }
