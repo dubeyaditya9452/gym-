@@ -381,6 +381,11 @@ footer{
     
 }
 @media (min-width:600px) and (max-width:800px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     nav {
         width: 100%;
     }
@@ -507,11 +512,11 @@ footer{
       
       }
     
-      .contact input[type="text"],
+      /* .contact input[type="text"],
       .contact input[type="email"] {
           width: 100%; /* Make the input fields occupy the full width */
-          margin-bottom: 10px; /* Add some spacing between input fields */
-      }
+          /* margin-bottom: 10px; /* Add some spacing between input fields */
+      /* }
       form textarea {
         width: 100%;
     }
@@ -520,6 +525,33 @@ footer{
         margin-bottom: 10px;
     }
     
+    #scrollToTopBtn{
+        position: fixed;
+        bottom: 20px;
+        right: 250px; /* Adjust this value to change the distance from the right side */
+        /* padding: 10px 15px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
     
-    
+}  */
+form input {
+    height: 40px;
+    margin-bottom: 22px;
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+    width:87% ;
+}
+form textarea{
+    width: 87%;
+}
+/* form button{
+    width: 50%;
+    margin-left: 40px;
+} */
 }
